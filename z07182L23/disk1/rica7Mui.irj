@@ -1,0 +1,112 @@
+{
+
+	"common" :
+	{
+
+		"root" :
+		{
+                        "SoftwareID"				: [ "0000000700002061",		"REG_SZ" ],
+			"Logging"								: [ "1",					"REG_DWORD" ]
+		},
+
+		"common_scope" :
+		{
+			"DriverProductVersion"		: [ "1.7.0.0",		"REG_SZ" ],
+			"Date"				: [ "05/15/2026",	"REG_SZ" ],
+			"PrinterModelName"		: [ "IM C4510",	"REG_SZ" ],
+			"PDL"						: [ "PCLXL",				"REG_SZ" ]
+		},
+
+		"ui_scope" :
+		{
+		},
+
+		"gr_scope" :
+		{
+		},
+
+		"capsdb_scope" :
+		{
+		}
+
+	},
+
+              "Gestetner IM C4510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C4510", "REG_SZ" ]
+               }
+       },
+       "Gestetner GS4045c PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "GS4045c", "REG_SZ" ]
+               }
+       },
+       "Gestetner IM C5510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C5510", "REG_SZ" ]
+               }
+       },
+       "Gestetner IM C6010 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C6010", "REG_SZ" ]
+               }
+       },
+       "Gestetner GS4160c PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "GS4160c", "REG_SZ" ]
+               }
+       },
+       "NRG IM C4510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C4510", "REG_SZ" ]
+               }
+       },
+       "NRG IM C5510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C5510", "REG_SZ" ]
+               }
+       },
+       "NRG IM C6010 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C6010", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C4510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C4510", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C5510 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C5510", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C6010 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C6010", "REG_SZ" ]
+               }
+       }
+ 
+}

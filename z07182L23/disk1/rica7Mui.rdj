@@ -1,0 +1,13 @@
+{
+	"ini_list"	: 
+	[
+		{
+			"PrinterModelName"	: ["IM C4510","GS4045c","IM C5510","IM C6010","GS4160c"],
+			"LoadDll"			: "MFRicr64.dll",
+			"ResDll"			: "RD07Md64.dll",
+			"Version"			: "1.1.20.0"
+			
+		}
+	]
+}
+

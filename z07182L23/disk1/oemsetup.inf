@@ -1,0 +1,235 @@
+;------------------------------------------------------------
+; Copyright (c) 2007-2026 RICOH COMPANY, LTD
+; All Rights Reserved
+; Printer Driver Setup Information File
+;------------------------------------------------------------
+
+[Version]
+Signature   = "$Windows NT$"
+Provider    = %Ricoh%
+ClassGUID   = {4D36E979-E325-11CE-BFC1-08002BE10318}
+Class       = Printer
+DriverVer  = 05/15/2026,1.7.0.0
+CatalogFile	= rica7M.cat
+
+[Manufacturer]
+%Gestetner%=Gestetner,NTamd64
+%NRG%=NRG,NTamd64
+%Ricoh%=Ricoh,NTamd64
+
+
+;WindowsXP(amd64)
+[Gestetner.NTamd64]
+"Gestetner IM C4510 PCL 6"=Gestetner_IM_C4510_64.dat,USBPRINT\GestetnerIM_C4510AD26,LPTENUM\GestetnerIM_C4510AD26,GestetnerIM_C4510AD26
+"Gestetner GS4045c PCL 6"=Gestetner_GS4045c_64.dat,USBPRINT\GestetnerGS4045cA3E5,LPTENUM\GestetnerGS4045cA3E5,GestetnerGS4045cA3E5
+"Gestetner IM C5510 PCL 6"=Gestetner_IM_C5510_64.dat,USBPRINT\GestetnerIM_C55105127,LPTENUM\GestetnerIM_C55105127,GestetnerIM_C55105127
+"Gestetner IM C6010 PCL 6"=Gestetner_IM_C6010_64.dat,USBPRINT\GestetnerIM_C6010D5B6,LPTENUM\GestetnerIM_C6010D5B6,GestetnerIM_C6010D5B6
+"Gestetner GS4160c PCL 6"=Gestetner_GS4160c_64.dat,USBPRINT\GestetnerGS4160cCF44,LPTENUM\GestetnerGS4160cCF44,GestetnerGS4160cCF44
+
+[NRG.NTamd64]
+"NRG IM C4510 PCL 6"=NRG_IM_C4510_64.dat,USBPRINT\NRGIM_C4510DAE7,LPTENUM\NRGIM_C4510DAE7,NRGIM_C4510DAE7
+"NRG IM C5510 PCL 6"=NRG_IM_C5510_64.dat,USBPRINT\NRGIM_C5510E767,LPTENUM\NRGIM_C5510E767,NRGIM_C5510E767
+"NRG IM C6010 PCL 6"=NRG_IM_C6010_64.dat,USBPRINT\NRGIM_C601063F6,LPTENUM\NRGIM_C601063F6,NRGIM_C601063F6
+
+[Ricoh.NTamd64]
+"RICOH IM C4510 PCL 6"=RICOH_IM_C4510_64.dat,USBPRINT\RICOHIM_C451000D7,LPTENUM\RICOHIM_C451000D7,RICOHIM_C451000D7,RICOHIM_C4510__D7
+"RICOH IM C5510 PCL 6"=RICOH_IM_C5510_64.dat,USBPRINT\RICOHIM_C5510FCD6,LPTENUM\RICOHIM_C5510FCD6,RICOHIM_C5510FCD6
+"RICOH IM C6010 PCL 6"=RICOH_IM_C6010_64.dat,USBPRINT\RICOHIM_C6010B9C4,LPTENUM\RICOHIM_C6010B9C4,RICOHIM_C6010B9C4
+
+
+;WindowsXP(x86)
+
+[Gestetner_IM_C4510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_GS4045c_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_IM_C5510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_IM_C6010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_GS4160c_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[NRG_IM_C4510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[NRG_IM_C5510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[NRG_IM_C6010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C4510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C5510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C6010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Mcd.psz
+LanguageMonitor	= rica7Mlm,rica7Mlm.dll
+CopyINF		= RPRNUT.INF
+
+
+[Gestetner_IM_C4510_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_GS4045c_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_IM_C5510_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_IM_C6010_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_GS4160c_64.dat.Services]
+AddService = ,0x2
+
+[NRG_IM_C4510_64.dat.Services]
+AddService = ,0x2
+
+[NRG_IM_C5510_64.dat.Services]
+AddService = ,0x2
+
+[NRG_IM_C6010_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C4510_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C5510_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C6010_64.dat.Services]
+AddService = ,0x2
+
+
+[RPD_FILES]
+rica7Mui.dll,rica7Mui.dl_
+rica7Mui.irj
+rica7Mui.rdj
+rica7Mui.rcf
+rica7Mug.dll,rica7Mug.dl_
+rica7Mug.miz
+rica7Mur.dll,rica7Mur.dl_
+rica7Mgr.dll,rica7Mgr.dl_
+rica7Mgl.dll,rica7Mgl.dl_
+rica7Mci.dll,rica7Mci.dl_
+rica7Mcd.dll,rica7Mcd.dl_
+rica7Mcd.psz
+rica7Mcf.cfz
+rica7Mcl.ini
+rica7Mch.chm
+rica7Mcz.dlz
+rica7Mcj.dll,rica7Mcj.dl_
+rica7Mct.dll,rica7Mct.dl_
+rica7Mcb.dll,rica7Mcb.dl_
+rica7Mtl.exe,rica7Mtl.ex_
+rica7Mtc.exe,rica7Mtc.ex_
+rica7Mtt.exe,rica7Mtt.ex_
+rica7Mtf.exe,rica7Mtf.ex_
+
+[RPD_COMMON_SYS32]
+rica7Mlm.dll,rica7Mlm.dl_,,0x00000020
+
+[RPD_COMMON]
+ricdb64.dll,ricdb64.dl_,,0x00000020
+mfricr64.dll,mfricr64.dl_,,0x00000020
+RD07Md64.dll,RD07Md64.dl_,,0x00000020
+
+[RPD_DATA]
+ConfigFile		= rica7Mui.dll
+DriverFile		= rica7Mgr.dll
+HelpFile		= rica7Mch.chm
+
+[DestinationDirs]
+DefaultDestDir		= 66000
+RPD_COMMON_SYS32	 	= 66002
+
+[SourceDisksNames.amd64]
+1 = %DSK%,,,
+
+[PrinterPackageInstallation.amd64]
+PackageAware			=TRUE
+
+[SourceDisksFiles.amd64]
+rica7Mui.dl_	= 1
+rica7Mui.irj	= 1
+rica7Mui.rdj	= 1
+rica7Mui.rcf	= 1
+rica7Mug.dl_	= 1
+rica7Mug.miz	= 1
+rica7Mur.dl_	= 1
+rica7Mgr.dl_	= 1
+rica7Mgl.dl_	= 1
+rica7Mci.dl_		= 1
+rica7Mcd.dl_	= 1
+rica7Mcd.psz	= 1
+rica7Mcf.cfz	= 1
+rica7Mcl.ini	= 1
+rica7Mch.chm	= 1
+rica7Mcz.dlz		= 1
+rica7Mcj.dl_	= 1
+rica7Mct.dl_	= 1
+rica7Mcb.dl_	= 1
+rica7Mlm.dl_	= 1
+ricdb64.dl_			= 1
+mfricr64.dl_		= 1
+rica7Mtl.ex_      = 1
+RD07Md64.dl_		= 1
+rica7Mtc.ex_      = 1
+rica7Mtt.ex_      = 1
+rica7Mtf.ex_      = 1
+
+[Strings]
+Ricoh="Ricoh"
+Gestetner="Gestetner"
+NRG="NRG"
+DSK= "PCL6 Printer Driver Disk1"
